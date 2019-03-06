@@ -1,0 +1,21 @@
+{
+  "name": "music-map",
+  "version": "1.0.0",
+  "description": "Music data exploration",
+  "main": "index.js",
+  "author": "@naffiq, @dmitrychae",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf dist && parcel build index.html --public-url /music-map/",
+    "deploy": "yarn build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "parcel": "^1.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
