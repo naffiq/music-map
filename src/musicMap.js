@@ -4,21 +4,29 @@ import { getTrackData, getMaxValue, getMinValue } from "./utils";
 const minValence = getMinValue(albumsData, "valence");
 const maxValence = getMaxValue(albumsData, "valence");
 
+const minTempo = getMinValue(albumsData, "tempo");
+const maxTempo = getMaxValue(albumsData, "tempo");
+
 const tracksData = getTrackData(albumsData);
 
 const width = window.innerWidth - 200;
 const height = 900;
 const MAX_CIRCLE_RADIUS = Math.min(width / albumsData.length / 2 - 20, 100);
 
-const xAlbumsScale = d3.scale
+const albumIdxToX = d3.scale
   .linear()
   .domain([0, albumsData.length])
   .range([MAX_CIRCLE_RADIUS, width - MAX_CIRCLE_RADIUS]);
 
-var yHappinessScale = d3.scale
+var valenceToY = d3.scale
   .linear()
   .domain([minValence, maxValence])
   .range([height - 200, MAX_CIRCLE_RADIUS]);
+
+var tempoToRadius = d3.scale
+  .linear()
+  .domain([minTempo, maxTempo])
+  .range([1, MAX_CIRCLE_RADIUS]);
 
 const colorEnergyScale = d3.scale
   .linear()
@@ -40,7 +48,7 @@ var musicMapChart = chart
     "transform",
     track =>
       "translate(" +
-      Number(xAlbumsScale(track.albumIdx) + 200) +
+      Number(albumIdxToX(track.albumIdx) + 200) +
       `, ${height + 200})`
   );
 
@@ -52,9 +60,9 @@ chart
     "transform",
     track =>
       "translate(" +
-      Number(xAlbumsScale(track.albumIdx) + 200) +
+      Number(albumIdxToX(track.albumIdx) + 200) +
       ", " +
-      yHappinessScale(track.valence) +
+      valenceToY(track.valence) +
       ")"
   );
 
@@ -62,8 +70,14 @@ musicMapChart
   .append("circle")
   .attr("cx", 50)
   .attr("cy", 50)
-  .attr("r", 30)
+  .attr("r", 0)
   .attr("fill", track => colorEnergyScale(track.energy));
+
+musicMapChart
+  .selectAll("circle")
+  .transition()
+  .duration(() => 500 + Math.random() * 500)
+  .attr("r", track => tempoToRadius(track.tempo));
 
 // musicMapChart.selectAll("circle");
 
@@ -75,17 +89,17 @@ musicMapChart
   .text(function(d) {
     return d.name;
   });
-console.log(albumsData);
 
 var albumsLine = chart
   .selectAll("g.albumsRow")
   .data(albumsData)
   .enter()
   .append("g")
+  .attr("style", "opacity:0")
   .attr(
     "transform",
     (_, i) =>
-      "translate(" + Number(xAlbumsScale(i) + 200) + "," + (height - 130) + ")"
+      "translate(" + Number(albumIdxToX(i) + 200) + "," + (height - 130) + ")"
   );
 const ALBUM_IMAGE_SIZE = 60;
 albumsLine
