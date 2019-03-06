@@ -1,5 +1,3 @@
-import axios from "axios";
-import { headers } from "./header";
 export const albumsData = [
   {
     id: "6400dnyeDyD2mIFHfkwHXN",
@@ -110,5 +108,84 @@ export const albumsData = [
     release_date: "2016-05-08",
     release_date_precision: "day",
     total_tracks: 11
+  }
+];
+
+export const oldData = [
+  {
+    name: "Pablo Honey",
+    year: 1993,
+    tracks: [
+      {
+        name: "Creep",
+        shazamCount: 4200000,
+        energy: 0.2,
+        happiness: 0.1
+      },
+
+      {
+        name: "Everyone can play guitar",
+        shazamCount: 27000,
+        energy: 0.7,
+        happiness: 0.8
+      }
+    ]
+  },
+  {
+    name: "The bends",
+    year: 1995,
+    tracks: [
+      {
+        name: "High and dry",
+        shazamCount: 1300000,
+        energy: 0.1,
+        happiness: 0.4
+      },
+
+      {
+        name: "Fake plastic trees",
+        shazamCount: 714000,
+        energy: 0.1,
+        happiness: 0.2
+      }
+    ]
+  },
+  {
+    name: "The bends",
+    year: 1995,
+    tracks: [
+      {
+        name: "High and dry",
+        shazamCount: 1300000,
+        energy: 0.1,
+        happiness: 0.4
+      },
+
+      {
+        name: "Fake plastic trees",
+        shazamCount: 714000,
+        energy: 0.1,
+        happiness: 0.2
+      }
+    ]
+  },
+  {
+    name: "The bends",
+    year: 1995,
+    tracks: [
+      {
+        name: "High and dry",
+        shazamCount: 1300000,
+        energy: 0.1,
+        happiness: 0.4
+      },
+
+      {
+        name: "Fake plastic trees",
+        shazamCount: 714000,
+        energy: 0.1,
+        happiness: 0.2
+      }
+    ]
   }
 ];

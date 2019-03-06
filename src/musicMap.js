@@ -101,6 +101,13 @@ var albumsLine = chart
     (_, i) =>
       "translate(" + Number(albumIdxToX(i) + 200) + "," + (height - 130) + ")"
   );
+
+albumsLine
+  .selectAll("g.albumsRow")
+  .transition()
+  .duration((_, i) => 100 * i)
+  .attr("style", "opacity:1");
+
 const ALBUM_IMAGE_SIZE = 60;
 albumsLine
   .append("image")
