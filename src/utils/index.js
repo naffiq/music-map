@@ -1,1 +1,1 @@
-export { getTrackData, getMaxValue, getMinValue } from "./utils";
+export { flattenAlbums, getMaxValue, getMinValue } from "./trackData";

@@ -1,9 +1,9 @@
-export const getTrackData = albumData =>
-  albumData.reduce((allTracksData, album, albumIdx) => {
-    return allTracksData.concat(
-      album.tracks.map(track => ({ ...track, albumIdx }))
-    );
-  }, []);
+export const flattenAlbums = albumData =>
+  albumData.reduce(
+    (allTracksData, album, albumIdx) =>
+      allTracksData.concat(album.tracks.map(track => ({ ...track, albumIdx }))),
+    []
+  );
 
 export const getMaxValue = (albumData, trackField) =>
   albumData.reduce((currentMax, album) => {

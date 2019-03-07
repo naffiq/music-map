@@ -1,0 +1,1 @@
+export { albumsData } from "./albumData";
