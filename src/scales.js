@@ -11,6 +11,9 @@ const maxValence = getMaxValue(albumsData, "valence");
 const minTempo = getMinValue(albumsData, "tempo");
 const maxTempo = getMaxValue(albumsData, "tempo");
 
+const minShazams = getMinValue(albumsData, "shazams");
+const maxShazams = getMaxValue(albumsData, "shazams");
+
 export const albumIdxToX = d3.scale
   .linear()
   .domain([0, albumsData.length])
@@ -30,6 +33,14 @@ export const tempoToRadius = d3.scale
   .linear()
   .domain([minTempo, maxTempo])
   .range([10, COLUMN_WIDTH]);
+
+export const shazamsToRadius = value => {
+  const normalizedMax = maxShazams / 2.5;
+  return d3.scale
+    .linear()
+    .domain([minShazams, normalizedMax])
+    .range([3, COLUMN_WIDTH])(Math.min(normalizedMax, value));
+};
 
 export const colorEnergyScale = d3.scale
   .linear()

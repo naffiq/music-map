@@ -32,7 +32,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/1MyqLTRhgyWPw7v107BEuI",
         duration_ms: 208667,
         time_signature: 3,
-        name: "You"
+        name: "You",
+        shazams: 1388
       },
       {
         danceability: 0.515,
@@ -54,7 +55,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6b2oQwSGFkzsMtQruIWm2p",
         duration_ms: 238640,
         time_signature: 4,
-        name: "Creep"
+        name: "Creep",
+        shazams: 418561
       },
       {
         danceability: 0.185,
@@ -76,7 +78,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/71wIOoaoVMUwskK5yCXZL4",
         duration_ms: 132173,
         time_signature: 4,
-        name: "How Do You?"
+        name: "How Do You?",
+        shazams: 499
       },
       {
         danceability: 0.212,
@@ -98,7 +101,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/2zYmvi3w2T8a9Ckrv21bvW",
         duration_ms: 325627,
         time_signature: 4,
-        name: "Stop Whispering"
+        name: "Stop Whispering",
+        shazams: 1105
       },
       {
         danceability: 0.364,
@@ -120,7 +124,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3ovbSnT5NNhl1gzMcw1NRZ",
         duration_ms: 161533,
         time_signature: 4,
-        name: "Thinking About You"
+        name: "Thinking About You",
+        shazams: 1877
       },
       {
         danceability: 0.294,
@@ -142,7 +147,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4NUc1M0CS7b6zvWoyvibju",
         duration_ms: 217800,
         time_signature: 4,
-        name: "Anyone Can Play Guitar"
+        name: "Anyone Can Play Guitar",
+        shazams: 2637
       },
       {
         danceability: 0.256,
@@ -164,7 +170,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4nklmaiY4gfQI3SB1sLGsd",
         duration_ms: 189733,
         time_signature: 4,
-        name: "Ripcord"
+        name: "Ripcord",
+        shazams: 255
       },
       {
         danceability: 0.384,
@@ -186,7 +193,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/11qDTSr3Dj4TkPnBcIOqEJ",
         duration_ms: 192667,
         time_signature: 4,
-        name: "Vegetable"
+        name: "Vegetable",
+        shazams: 345
       },
       {
         danceability: 0.25,
@@ -208,7 +216,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4D6ZExVvYLZxhcAvifX5px",
         duration_ms: 145373,
         time_signature: 4,
-        name: "Prove Yourself"
+        name: "Prove Yourself",
+        shazams: 291
       },
       {
         danceability: 0.284,
@@ -230,7 +239,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/48IEDejXX5LH8TAC3VIGpc",
         duration_ms: 253093,
         time_signature: 4,
-        name: "I Can't"
+        name: "I Can't",
+        shazams: 326
       },
       {
         danceability: 0.42,
@@ -252,7 +262,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/2B5P22cfUadACK7jLQegU6",
         duration_ms: 187867,
         time_signature: 4,
-        name: "Lurgee"
+        name: "Lurgee",
+        shazams: 493
       },
       {
         danceability: 0.284,
@@ -274,7 +285,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6qttbImnJ5wuA8AtDKEy18",
         duration_ms: 282067,
         time_signature: 4,
-        name: "Blow Out"
+        name: "Blow Out",
+        shazams: 603
       }
     ]
   },
@@ -310,7 +322,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/05evePUsIT1cmIURp1hgu6",
         duration_ms: 259200,
         time_signature: 3,
-        name: "Planet Telex"
+        name: "Planet Telex",
+        shazams: 2831
       },
       {
         danceability: 0.288,
@@ -332,7 +345,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3aDUSpF3LexOr1lFKvPV2h",
         duration_ms: 246200,
         time_signature: 4,
-        name: "The Bends"
+        name: "The Bends",
+        shazams: 3762
       },
       {
         danceability: 0.418,
@@ -354,7 +368,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/5jafMI8FLibnjkYTZ33m0c",
         duration_ms: 257480,
         time_signature: 4,
-        name: "High And Dry"
+        name: "High And Dry",
+        shazams: 129126
       },
       {
         danceability: 0.454,
@@ -376,7 +391,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/045sp2JToyTaaKyXkGejPy",
         duration_ms: 290707,
         time_signature: 4,
-        name: "Fake Plastic Trees"
+        name: "Fake Plastic Trees",
+        shazams: 70836
       },
       {
         danceability: 0.358,
@@ -398,7 +414,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/0OT4Rhd9cw1yajN9ZxL6qL",
         duration_ms: 189000,
         time_signature: 4,
-        name: "Bones"
+        name: "Bones",
+        shazams: 3780
       },
       {
         danceability: 0.262,
@@ -420,7 +437,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4QbQ55kHcRNho6XLaPctT1",
         duration_ms: 233227,
         time_signature: 3,
-        name: "(Nice Dream)"
+        name: "(Nice Dream)",
+        shazams: 15212
       },
       {
         danceability: 0.291,
@@ -442,7 +460,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4SE81CrzH0qPA8KHqM9Syz",
         duration_ms: 234800,
         time_signature: 4,
-        name: "Just"
+        name: "Just",
+        shazams: 17185
       },
       {
         danceability: 0.242,
@@ -464,7 +483,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4dPKQxaraW6CG1rTBzV6DW",
         duration_ms: 276427,
         time_signature: 4,
-        name: "My Iron Lung"
+        name: "My Iron Lung",
+        shazams: 6308
       },
       {
         danceability: 0.448,
@@ -486,7 +506,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/7wB2VenWR6rchtLwawreIg",
         duration_ms: 208733,
         time_signature: 4,
-        name: "Bullet Proof ... I Wish I Was"
+        name: "Bullet Proof ... I Wish I Was",
+        shazams: 2148
       },
       {
         danceability: 0.288,
@@ -508,7 +529,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6JzzI3YxHCcjZ7MCQS2YS1",
         duration_ms: 247040,
         time_signature: 4,
-        name: "Black Star"
+        name: "Black Star",
+        shazams: 2843
       },
       {
         danceability: 0.167,
@@ -530,7 +552,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4HtPAkZnSyGtNvBnfDc2nw",
         duration_ms: 222960,
         time_signature: 3,
-        name: "Sulk"
+        name: "Sulk",
+        shazams: 693
       },
       {
         danceability: 0.488,
@@ -552,7 +575,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/5gz38AxRkD6Ywxd4fr2pLj",
         duration_ms: 253853,
         time_signature: 4,
-        name: "Street Spirit (Fade Out)"
+        name: "Street Spirit (Fade Out)",
+        shazams: 58909
       }
     ]
   },
@@ -588,7 +612,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3OsUjkcv1C1v5udFhgRSFg",
         duration_ms: 287880,
         time_signature: 4,
-        name: "Airbag"
+        name: "Airbag",
+        shazams: 5029
       },
       {
         danceability: 0.252,
@@ -610,7 +635,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/2nTsKOXIVGDf2iPeVQO2Gm",
         duration_ms: 387213,
         time_signature: 4,
-        name: "Paranoid Android"
+        name: "Paranoid Android",
+        shazams: 40793
       },
       {
         danceability: 0.316,
@@ -632,7 +658,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/19yGmm9FjEZdZc5j98WDe4",
         duration_ms: 267693,
         time_signature: 3,
-        name: "Subterranean Homesick Alien"
+        name: "Subterranean Homesick Alien",
+        shazams: 4336
       },
       {
         danceability: 0.293,
@@ -654,7 +681,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4Na0siMtWOW9pJoWJ1Ponv",
         duration_ms: 267187,
         time_signature: 4,
-        name: "Exit Music (For a Film)"
+        name: "Exit Music (For a Film)",
+        shazams: 68119
       },
       {
         danceability: 0.352,
@@ -676,7 +704,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4aOAzvRdOsZSwZIgwcdeL0",
         duration_ms: 299560,
         time_signature: 4,
-        name: "Let Down"
+        name: "Let Down",
+        shazams: 8199
       },
       {
         danceability: 0.36,
@@ -698,7 +727,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3SVAN3BRByDmHOhKyIDxfC",
         duration_ms: 264067,
         time_signature: 4,
-        name: "Karma Police"
+        name: "Karma Police",
+        shazams: 117468
       },
       {
         danceability: 0.432,
@@ -720,7 +750,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/53aFGAl0Vebwp2bo8wtdWR",
         duration_ms: 117333,
         time_signature: 4,
-        name: "Fitter Happier"
+        name: "Fitter Happier",
+        shazams: 759
       },
       {
         danceability: 0.185,
@@ -742,7 +773,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6PBHfI3G8MlQ8qdItoVoxL",
         duration_ms: 230627,
         time_signature: 4,
-        name: "Electioneering"
+        name: "Electioneering",
+        shazams: 2296
       },
       {
         danceability: 0.172,
@@ -764,7 +796,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/0R332cdlS9LyE0Ge2PSlVC",
         duration_ms: 285200,
         time_signature: 4,
-        name: "Climbing Up the Walls"
+        name: "Climbing Up the Walls",
+        shazams: 4387
       },
       {
         danceability: 0.255,
@@ -786,7 +819,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/1bSpwPhAxZwlR2enJJsv7U",
         duration_ms: 229120,
         time_signature: 4,
-        name: "No Surprises"
+        name: "No Surprises",
+        shazams: 107466
       },
       {
         danceability: 0.206,
@@ -808,7 +842,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6n7GUf2h8D2Ad2wUy5s7nE",
         duration_ms: 258813,
         time_signature: 4,
-        name: "Lucky"
+        name: "Lucky",
+        shazams: 8246
       },
       {
         danceability: 0.241,
@@ -830,7 +865,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/75YUnz58ajMo2VIIuUFvOV",
         duration_ms: 326533,
         time_signature: 5,
-        name: "The Tourist"
+        name: "The Tourist",
+        shazams: 3334
       }
     ]
   },
@@ -866,7 +902,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/5AiNZnMDCWwujIENPj9PV9",
         duration_ms: 251427,
         time_signature: 5,
-        name: "Everything In Its Right Place"
+        name: "Everything In Its Right Place",
+        shazams: 32651
       },
       {
         danceability: 0.63,
@@ -888,7 +925,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4x7XJOE2ml2P3o3i77466j",
         duration_ms: 284507,
         time_signature: 4,
-        name: "Kid A"
+        name: "Kid A",
+        shazams: 3608
       },
       {
         danceability: 0.486,
@@ -910,7 +948,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/01UstUPbzPgq2MNp6h0tVo",
         duration_ms: 351693,
         time_signature: 4,
-        name: "The National Anthem"
+        name: "The National Anthem",
+        shazams: 5221
       },
       {
         danceability: 0.168,
@@ -932,7 +971,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/69pwmeyvQMuHMtkCmpEWhQ",
         duration_ms: 356333,
         time_signature: 4,
-        name: "How To Disappear Completely"
+        name: "How To Disappear Completely",
+        shazams: 6684
       },
       {
         danceability: 0.157,
@@ -954,7 +994,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4DPQvbgSM0IdX4O3HOACwL",
         duration_ms: 222600,
         time_signature: 3,
-        name: "Treefingers"
+        name: "Treefingers",
+        shazams: 391
       },
       {
         danceability: 0.403,
@@ -976,7 +1017,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4DE6Wkt9fW7R5e9gJGWQim",
         duration_ms: 315973,
         time_signature: 4,
-        name: "Optimistic"
+        name: "Optimistic",
+        shazams: 5973
       },
       {
         danceability: 0.375,
@@ -998,7 +1040,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/1NgvIjkEjkhcIR1pp5Qsir",
         duration_ms: 211000,
         time_signature: 4,
-        name: "In Limbo"
+        name: "In Limbo",
+        shazams: 704
       },
       {
         danceability: 0.615,
@@ -1020,7 +1063,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/7xqeIdLJSf3bgmZ7vUvHrE",
         duration_ms: 309093,
         time_signature: 3,
-        name: "Idioteque"
+        name: "Idioteque",
+        shazams: 20506
       },
       {
         danceability: 0.645,
@@ -1042,7 +1086,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/1HQYo8C5L0qd1p5f1anXPS",
         duration_ms: 275800,
         time_signature: 5,
-        name: "Morning Bell"
+        name: "Morning Bell",
+        shazams: 2476
       },
       {
         danceability: 0.134,
@@ -1064,29 +1109,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/0COiZ7ncho2yi4HotbzgPv",
         duration_ms: 200483,
         time_signature: 4,
-        name: "Motion Picture Soundtrack"
-      },
-      {
-        danceability: 0.327,
-        energy: 0.225,
-        key: 7,
-        loudness: -16.341,
-        mode: 1,
-        speechiness: 0.067,
-        acousticness: 0.992,
-        instrumentalness: 0.813,
-        liveness: 0.106,
-        valence: 0.0766,
-        tempo: 63.422,
-        type: "audio_features",
-        id: "2YsJM80gRMAhCikUkNZT3G",
-        uri: "spotify:track:2YsJM80gRMAhCikUkNZT3G",
-        track_href: "https://api.spotify.com/v1/tracks/2YsJM80gRMAhCikUkNZT3G",
-        analysis_url:
-          "https://api.spotify.com/v1/audio-analysis/2YsJM80gRMAhCikUkNZT3G",
-        duration_ms: 52695,
-        time_signature: 3,
-        name: "Untitled"
+        name: "Motion Picture Soundtrack",
+        shazams: 11515
       }
     ]
   },
@@ -1122,7 +1146,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/7he52OqF36BVF6dSVKKQPq",
         duration_ms: 240333,
         time_signature: 4,
-        name: "Packt Like Sardines In a Crushed Tin Box"
+        name: "Packt Like Sardines In a Crushed Tin Box",
+        shazams: 1879
       },
       {
         danceability: 0.127,
@@ -1144,7 +1169,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3A9vIxzGBjEfqmDK7H9exS",
         duration_ms: 288733,
         time_signature: 4,
-        name: "Pyramid Song"
+        name: "Pyramid Song",
+        shazams: 26844
       },
       {
         danceability: 0.58,
@@ -1166,7 +1192,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4doFWLhPChHDgs89rHs5nr",
         duration_ms: 247267,
         time_signature: 4,
-        name: "Pulk/Pull Revolving Doors"
+        name: "Pulk/Pull Revolving Doors",
+        shazams: 516
       },
       {
         danceability: 0.295,
@@ -1188,7 +1215,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6UFvGJalSngqprmUJd59Eo",
         duration_ms: 191000,
         time_signature: 4,
-        name: "You And Whose Army?"
+        name: "You And Whose Army?",
+        shazams: 25750
       },
       {
         danceability: 0.601,
@@ -1210,7 +1238,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/0JhpYE9xA3UpSFrmXTZyIF",
         duration_ms: 293773,
         time_signature: 4,
-        name: "I Might Be Wrong"
+        name: "I Might Be Wrong",
+        shazams: 9991
       },
       {
         danceability: 0.433,
@@ -1232,7 +1261,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/2xbrMtkxp399aSiCJ8EAON",
         duration_ms: 254867,
         time_signature: 4,
-        name: "Knives Out"
+        name: "Knives Out",
+        shazams: 6497
       },
       {
         danceability: 0.325,
@@ -1254,7 +1284,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3jaA0iP323UuDVVDA9sfSl",
         duration_ms: 194267,
         time_signature: 4,
-        name: "Morning Bell/Amnesiac"
+        name: "Morning Bell/Amnesiac",
+        shazams: 384
       },
       {
         danceability: 0.325,
@@ -1276,7 +1307,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/2mvmuCtmmrERnm03ULdDye",
         duration_ms: 291733,
         time_signature: 4,
-        name: "Dollars & Cents"
+        name: "Dollars & Cents",
+        shazams: 654
       },
       {
         danceability: 0.302,
@@ -1298,7 +1330,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/2zYrFer4QGSQkk5aUawfHB",
         duration_ms: 121200,
         time_signature: 4,
-        name: "Hunting Bears"
+        name: "Hunting Bears",
+        shazams: 567
       },
       {
         danceability: 0.493,
@@ -1320,7 +1353,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/1qVP3GP1pUhJxogteiIi78",
         duration_ms: 237467,
         time_signature: 4,
-        name: "Like Spinning Plates"
+        name: "Like Spinning Plates",
+        shazams: 3449
       },
       {
         danceability: 0.168,
@@ -1342,7 +1376,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/29yXMFKIrY1fFY4DYBVZCu",
         duration_ms: 276693,
         time_signature: 4,
-        name: "Life In a Glasshouse"
+        name: "Life In a Glasshouse",
+        shazams: 9394
       }
     ]
   },
@@ -1378,7 +1413,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/37kUGdEJJ7NaMl5LFW4EA4",
         duration_ms: 199360,
         time_signature: 4,
-        name: "2 + 2 = 5"
+        name: "2 + 2 = 5",
+        shazams: 4794
       },
       {
         danceability: 0.483,
@@ -1400,7 +1436,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3wPLVTqp66miOokxN1cLbm",
         duration_ms: 259973,
         time_signature: 4,
-        name: "Sit Down. Stand Up"
+        name: "Sit Down. Stand Up",
+        shazams: 942
       },
       {
         danceability: 0.372,
@@ -1422,7 +1459,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/5olWalQH1oVza5D6xJg4oX",
         duration_ms: 258360,
         time_signature: 4,
-        name: "Sail To The Moon"
+        name: "Sail To The Moon",
+        shazams: 1367
       },
       {
         danceability: 0.718,
@@ -1444,7 +1482,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6CVdTDYoDbwYj4xn8u5Gha",
         duration_ms: 322600,
         time_signature: 4,
-        name: "Backdrifts"
+        name: "Backdrifts",
+        shazams: 778
       },
       {
         danceability: 0.288,
@@ -1466,7 +1505,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6TdGeb9e2KL6RZG0VxoTMd",
         duration_ms: 201507,
         time_signature: 4,
-        name: "Go To Sleep"
+        name: "Go To Sleep",
+        shazams: 3024
       },
       {
         danceability: 0.297,
@@ -1488,7 +1528,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/5X3uhutgZktlUWmzIOE3NG",
         duration_ms: 269293,
         time_signature: 4,
-        name: "Where I End and You Begin"
+        name: "Where I End and You Begin",
+        shazams: 1878
       },
       {
         danceability: 0.135,
@@ -1510,7 +1551,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/53RYTfkLiyZuUZHwJC3Wmm",
         duration_ms: 296707,
         time_signature: 4,
-        name: "We Suck Young Blood"
+        name: "We Suck Young Blood",
+        shazams: 652
       },
       {
         danceability: 0.44,
@@ -1532,7 +1574,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/2q4zYomFf4ZVrEOr1aXj6l",
         duration_ms: 212027,
         time_signature: 4,
-        name: "The Gloaming"
+        name: "The Gloaming",
+        shazams: 525
       },
       {
         danceability: 0.614,
@@ -1554,7 +1597,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/77SPrxY5gn6VPrKPGrfLnM",
         duration_ms: 323600,
         time_signature: 4,
-        name: "There, There"
+        name: "There, There",
+        shazams: 12573
       },
       {
         danceability: 0.254,
@@ -1576,7 +1620,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/28VoI90xDBoKe5sP3sP5jW",
         duration_ms: 119467,
         time_signature: 4,
-        name: "I Will"
+        name: "I Will",
+        shazams: 650
       },
       {
         danceability: 0.603,
@@ -1598,7 +1643,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/2LfUYXF8jfrHCfwYyf2pRj",
         duration_ms: 297333,
         time_signature: 4,
-        name: "A Punch Up At a Wedding"
+        name: "A Punch Up At a Wedding",
+        shazams: 1476
       },
       {
         danceability: 0.499,
@@ -1620,7 +1666,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/38WL6GlG9NHFiQS6JxV84r",
         duration_ms: 232533,
         time_signature: 4,
-        name: "Myxomatosis"
+        name: "Myxomatosis",
+        shazams: 828
       },
       {
         danceability: 0.492,
@@ -1642,7 +1689,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/467FBnBDRfL8Hz9ktUUybj",
         duration_ms: 201707,
         time_signature: 4,
-        name: "Scatterbrain"
+        name: "Scatterbrain",
+        shazams: 712
       },
       {
         danceability: 0.48,
@@ -1664,7 +1712,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/66cuLvkHsW7dNkfNk6gQP9",
         duration_ms: 201333,
         time_signature: 3,
-        name: "A Wolf At the Door"
+        name: "A Wolf At the Door",
+        shazams: 2331
       }
     ]
   },
@@ -1700,7 +1749,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6tLALP9mi7VbNC7s16iBRK",
         duration_ms: 313671,
         time_signature: 4,
-        name: "Bloom"
+        name: "Bloom",
+        shazams: 1837
       },
       {
         danceability: 0.648,
@@ -1722,7 +1772,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3wxmJSQ3Z1HfAuxeHQoZcE",
         duration_ms: 280719,
         time_signature: 4,
-        name: "Morning Mr Magpie"
+        name: "Morning Mr Magpie",
+        shazams: 3126
       },
       {
         danceability: 0.619,
@@ -1744,7 +1795,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4tCwsdqqG4jASHhbsMHCx0",
         duration_ms: 267154,
         time_signature: 4,
-        name: "Little By Little"
+        name: "Little By Little",
+        shazams: 2773
       },
       {
         danceability: 0.49,
@@ -1766,7 +1818,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/0eECFDnWy0RdjMmJ8NOeAL",
         duration_ms: 192743,
         time_signature: 4,
-        name: "Feral"
+        name: "Feral",
+        shazams: 602
       },
       {
         danceability: 0.721,
@@ -1788,7 +1841,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/1amSa5xo79zINsgrpNlNge",
         duration_ms: 300219,
         time_signature: 4,
-        name: "Lotus Flower"
+        name: "Lotus Flower",
+        shazams: 25517
       },
       {
         danceability: 0.327,
@@ -1810,7 +1864,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4sLGaMl33I6mcsk7u4xHAU",
         duration_ms: 287067,
         time_signature: 4,
-        name: "Codex"
+        name: "Codex",
+        shazams: 16654
       },
       {
         danceability: 0.26,
@@ -1832,7 +1887,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4OrGm3fBdhlXuHtRBoLUMW",
         duration_ms: 290067,
         time_signature: 4,
-        name: "Give Up The Ghost"
+        name: "Give Up The Ghost",
+        shazams: 1760
       },
       {
         danceability: 0.693,
@@ -1854,7 +1910,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/2rA36OZNb3LkvqcNro1ugK",
         duration_ms: 319249,
         time_signature: 4,
-        name: "Separator"
+        name: "Separator",
+        shazams: 3944
       }
     ]
   },
@@ -1890,7 +1947,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6dsq7Nt5mIFzvm5kIYNORy",
         duration_ms: 237293,
         time_signature: 4,
-        name: "15 Step"
+        name: "15 Step",
+        shazams: 41917
       },
       {
         danceability: 0.343,
@@ -1912,7 +1970,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4m0Vgr48VFaMYw0Sp1ozJu",
         duration_ms: 242293,
         time_signature: 4,
-        name: "Bodysnatchers"
+        name: "Bodysnatchers",
+        shazams: 6318
       },
       {
         danceability: 0.537,
@@ -1934,7 +1993,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/5k7VKj1Xwy5DjO4B0PdAOb",
         duration_ms: 255387,
         time_signature: 3,
-        name: "Nude"
+        name: "Nude",
+        shazams: 14580
       },
       {
         danceability: 0.538,
@@ -1956,7 +2016,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4Iyo50UoYhuuYORMLrGDci",
         duration_ms: 318187,
         time_signature: 4,
-        name: "Weird Fishes/ Arpeggi"
+        name: "Weird Fishes/ Arpeggi",
+        shazams: 18059
       },
       {
         danceability: 0.668,
@@ -1978,7 +2039,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/51ygW389BW4Dut3B69pSwc",
         duration_ms: 228747,
         time_signature: 4,
-        name: "All I Need"
+        name: "All I Need",
+        shazams: 10942
       },
       {
         danceability: 0.338,
@@ -2000,7 +2062,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/5SdmtFbNOD7Qej6jFCHkOM",
         duration_ms: 129680,
         time_signature: 3,
-        name: "Faust Arp"
+        name: "Faust Arp",
+        shazams: 1165
       },
       {
         danceability: 0.518,
@@ -2022,7 +2085,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/56Z7hbyMrndw1naxb6I5Oi",
         duration_ms: 290213,
         time_signature: 4,
-        name: "Reckoner"
+        name: "Reckoner",
+        shazams: 29030
       },
       {
         danceability: 0.71,
@@ -2044,7 +2108,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3Jc6X15OZCCyhGSHBF4hwB",
         duration_ms: 328293,
         time_signature: 4,
-        name: "House Of Cards"
+        name: "House Of Cards",
+        shazams: 16210
       },
       {
         danceability: 0.461,
@@ -2066,7 +2131,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/15ea10YpJIl3mJq75yzqsD",
         duration_ms: 248893,
         time_signature: 4,
-        name: "Jigsaw Falling Into Place"
+        name: "Jigsaw Falling Into Place",
+        shazams: 18712
       },
       {
         danceability: 0.581,
@@ -2088,7 +2154,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3uxhyRdWVXp7GQvERQl6fA",
         duration_ms: 279634,
         time_signature: 4,
-        name: "Videotape"
+        name: "Videotape",
+        shazams: 2990
       }
     ]
   },
@@ -2124,7 +2191,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3pcCifdPTc2BbqmWpEhtUd",
         duration_ms: 220609,
         time_signature: 4,
-        name: "Burn the Witch"
+        name: "Burn the Witch",
+        shazams: 62866
       },
       {
         danceability: 0.299,
@@ -2146,7 +2214,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/1uRxyAup7OYrlh2SHJb80N",
         duration_ms: 384439,
         time_signature: 3,
-        name: "Daydreaming"
+        name: "Daydreaming",
+        shazams: 34876
       },
       {
         danceability: 0.56,
@@ -2168,7 +2237,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/5rIhBK9aaVMck0W2YtOwci",
         duration_ms: 281011,
         time_signature: 4,
-        name: "Decks Dark"
+        name: "Decks Dark",
+        shazams: 127729
       },
       {
         danceability: 0.561,
@@ -2190,7 +2260,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/1kBGeOp1CDUHVdbK4ergqo",
         duration_ms: 224698,
         time_signature: 1,
-        name: "Desert Island Disk"
+        name: "Desert Island Disk",
+        shazams: 5164
       },
       {
         danceability: 0.426,
@@ -2212,7 +2283,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4CzTgOmc3Sdm4EgKQWzjQl",
         duration_ms: 367349,
         time_signature: 3,
-        name: "Ful Stop"
+        name: "Ful Stop",
+        shazams: 8700
       },
       {
         danceability: 0.218,
@@ -2234,7 +2306,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/0eZN5WsQfmNFICHuw59Zfz",
         duration_ms: 172936,
         time_signature: 4,
-        name: "Glass Eyes"
+        name: "Glass Eyes",
+        shazams: 2866
       },
       {
         danceability: 0.692,
@@ -2256,7 +2329,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3LhtqibvTtjOUrzKs7Vsz1",
         duration_ms: 266644,
         time_signature: 4,
-        name: "Identikit"
+        name: "Identikit",
+        shazams: 10843
       },
       {
         danceability: 0.282,
@@ -2278,7 +2352,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/6f6pEjgfTtuRROmJ4a7Gf3",
         duration_ms: 345887,
         time_signature: 3,
-        name: "The Numbers"
+        name: "The Numbers",
+        shazams: 8245
       },
       {
         danceability: 0.479,
@@ -2300,7 +2375,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/4eruRiSfDY1jdT03hjyi0i",
         duration_ms: 306581,
         time_signature: 4,
-        name: "Present Tense"
+        name: "Present Tense",
+        shazams: 18599
       },
       {
         danceability: 0.336,
@@ -2322,7 +2398,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/3cual6JOG286qZJmCxKRAT",
         duration_ms: 303689,
         time_signature: 4,
-        name: "Tinker Tailor Soldier Sailor Rich Man Poor Man Beggar Man Thief"
+        name: "Tinker Tailor Soldier Sailor Rich Man Poor Man Beggar Man Thief",
+        shazams: 2973
       },
       {
         danceability: 0.282,
@@ -2344,7 +2421,8 @@ export const albumsData = [
           "https://api.spotify.com/v1/audio-analysis/01ZpFhrMMqKPVCwyqXneVp",
         duration_ms: 283464,
         time_signature: 4,
-        name: "True Love Waits"
+        name: "True Love Waits",
+        shazams: 7259
       }
     ]
   }
