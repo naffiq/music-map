@@ -21,7 +21,7 @@
         margin: -100px auto 0 auto;
       }
       .chart text {
-        fill: #6c6973;
+        fill: #fff;
         font: 10px Inter;
         font-weight: 300;
         text-anchor: end;
@@ -37,6 +37,30 @@
         height: 50px;
       }
 
+      .chart g.track-circle text {
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        visibility: hidden;
+      }
+
+      .chart g.track-circle:hover text {
+        opacity: 1;
+        visibility: visible;
+      }
+      .chart g.track-circle:hover circle {
+        stroke: #fff;
+      }
+      .chart g.track-circle circle {
+        stroke: #000;
+        stroke-width: 1;
+      }
+      .chart g.track-circle {
+        opacity: 1;
+      }
+      .chart g.track-circle.unfocused {
+        opacity: 0.3;
+      }
+
       .chart text.horizontal-description {
         font: 12px Inter 300;
         fill: #fff;
@@ -44,30 +68,112 @@
 
       .wrapper {
         width: 1200px;
-        margin: 0 auto;
+        margin: 32px auto;
       }
 
       .flex-horizontal {
         display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
       }
       .title-data {
         width: 50%;
       }
+      .title-data h1 {
+        opacity: 0;
+        font-weight: 400;
+        position: relative;
+        top: -20px;
+        transition: opacity 1s ease-out, top 2s ease-out;
+      }
+      .title-data h1.visible {
+        opacity: 1;
+        top: 0;
+      }
       .title-data p {
+        opacity: 0;
+        position: relative;
+        transition: opacity 1s ease-in-out;
         font-weight: 300;
       }
 
+      .title-data p.visible {
+        opacity: 1;
+      }
+
       .info-column {
+        width: 60%;
+        margin-right: 32px;
+      }
+
+      .paragraph-column {
         width: 30%;
         margin-right: 32px;
       }
-      .info-column h4 {
-        font-size: 12px;
+      .paragraph-column h4 {
+        font-size: 14px;
       }
-      .info-column p {
-        font-size: 12px;
+      .paragraph-column p {
+        font-size: 14px;
+        line-height: 24px;
         font-weight: 300;
         color: #555555;
+      }
+      .info-list {
+        list-style: none;
+        padding-left: 0;
+        font-weight: 300;
+        color: #555555;
+      }
+      a {
+        color: #fff;
+        opacity: 0.4;
+        transition: opacity 0.3s ease-in-out;
+      }
+      a:hover {
+        opacity: 1;
+      }
+      li {
+        padding: 4px 0;
+        line-height: 20px;
+      }
+
+      .legend {
+        width: 180px;
+        background-color: rgba(255, 255, 255, 0.1);
+        height: auto;
+        border-radius: 3px;
+        padding: 16px;
+        position: relative;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
+      .legend ul {
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+      }
+      .legend ul li {
+        display: flex;
+        align-items: flex-start;
+        /* flex-direction:  */
+      }
+      .legend ul li img {
+        padding: 4px 16px 4px 0;
+      }
+      .legend ul li img.energy {
+        padding: 9px 16px 9px 0;
+      }
+      .legend ul h4 {
+        margin: 0;
+        font-size: 12px;
+        font-weight: normal;
+      }
+      .legend ul p {
+        margin: 0;
+        color: #6c6973;
+        font-size: 10px;
+        line-height: 16px;
       }
     </style>
   </head>
@@ -81,10 +187,29 @@
           explicitly labeled. Data as of February 2019.
         </p>
       </div>
+
+      <div class="legend">
+        <ul>
+          <li>
+            <img src="./assets/energy.svg" class="energy" alt="" />
+            <div class="legend-text">
+              <h4>Energy</h4>
+              <p>Red are faster and louder.</p>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/radius.svg" alt="" />
+            <div class="legend-text">
+              <h4>Shazams per year</h4>
+              <p>From 29 to 4,2 million</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
     <svg class="chart"></svg>
     <div class="wrapper flex-horizontal">
-      <div class="info-column">
+      <div class="paragraph-column">
         <h4>Happier and sadder</h4>
         <p>
           According to Spotify, there is index called "valence" which can vary
@@ -94,7 +219,7 @@
           corresponds to valence of 0, "Happier" — valence of 1.
         </p>
       </div>
-      <div class="info-column">
+      <div class="paragraph-column">
         <h4>Energy</h4>
         <p>
           According to Spotify, energy represents a perceptual measure of
@@ -104,6 +229,44 @@
           this attribute include dynamic range, perceived loudness, timbre,
           onset rate, and general entropy.
         </p>
+      </div>
+      <div class="paragraph-column">
+        <h4>Number of shazams per year</h4>
+        <p>
+          Assumption is that the more shazams a track have, the more frequently
+          the track has been played in public places, radio or other media
+          channels. Such tracks are not hugely popular, othewise they would be
+          recognized by people without using Shazam application. Also it means
+          the track is "catchy" and "likeable".
+        </p>
+      </div>
+    </div>
+    <div class="wrapper flex-horizontal">
+      <div class="info-column">
+        <ul class="info-list">
+          <li>– Tracks features from Spotify Web API.</li>
+          <li>
+            – Number of shazams from shazam.com provided by
+            <a href="https://chae.design" target="_blank" ref="nofollow">
+              Dmitry Chae</a
+            >.
+          </li>
+          <li>– Albums metadata from wikipedia.org.</li>
+          <li>
+            – Designed using Tableau Public and Sketch by
+            <a href="https://chae.design/works/inside-radiohead-albums"
+              >Dmitry Chae</a
+            >.
+          </li>
+          <li>
+            – Deveped using d3.js by
+            <a href="https://naffiq.com" target="_blank" ref="nofollow"
+              >Galymzhan Abdugalimov</a
+            >
+            <a href="https://github.com/naffiq/music-map">(source)</a>.
+          </li>
+          <li>Hosted on Github pages.</li>
+        </ul>
       </div>
     </div>
     <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>

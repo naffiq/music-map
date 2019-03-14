@@ -2,10 +2,12 @@ import { flattenAlbums } from "../utils";
 
 import {
   albumIdxToX,
-  tempoToRadius,
+  shazamsToRadius,
   colorEnergyScale,
   scaleGenerator
 } from "../scales";
+
+import _debounce from "lodash/debounce";
 
 export const render = (chart, height, albumsData) => {
   const valenceToY = scaleGenerator.valenceToY(height);
@@ -13,7 +15,11 @@ export const render = (chart, height, albumsData) => {
 
   var musicMapChart = chart
     .selectAll("g")
-    .data(tracksData)
+    .data(
+      tracksData.sort((x, y) =>
+        shazamsToRadius(x.shazams) > shazamsToRadius(y.shazams) ? -1 : 1
+      )
+    )
     .enter()
     .append("g")
     .attr("class", "track-circle")
@@ -25,9 +31,22 @@ export const render = (chart, height, albumsData) => {
         `, ${height + 200})`
     );
 
+  musicMapChart.on("mouseover", x => {
+    console.log(x);
+    musicMapChart.attr(
+      "class",
+      track => `track-circle${track.id !== x.id ? " unfocued" : ""}`
+    );
+  });
+
+  musicMapChart.on("mouseout", () => {
+    musicMapChart.attr("class", "track-circle");
+  });
+
   musicMapChart
     .transition()
-    .duration(track => 300 * (track.albumIdx + 5) + Math.random() * 50)
+    .delay(track => (Math.random() * 200 + 100) * (track.albumIdx + 1))
+    .duration(track => 350 * (track.albumIdx + 5))
     .attr(
       "transform",
       track =>
@@ -43,14 +62,13 @@ export const render = (chart, height, albumsData) => {
     .attr("cx", 50)
     .attr("cy", 50)
     .attr("r", 0)
-    .attr("style", "stroke:#000;stroke-width:1;")
     .attr("fill", track => colorEnergyScale(track.energy));
 
   musicMapChart
     .selectAll("circle")
     .transition()
     .duration((_, i) => 100 * (i + 1))
-    .attr("r", track => tempoToRadius(track.tempo));
+    .attr("r", track => shazamsToRadius(track.shazams));
 
   // musicMapChart.selectAll("circle");
 
@@ -60,7 +78,7 @@ export const render = (chart, height, albumsData) => {
     .attr("y", 50)
     .attr("dy", ".35em")
     .text(function(d) {
-      return d.name;
+      return `${d.name}`;
     });
 };
 

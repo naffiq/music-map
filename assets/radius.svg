@@ -1,0 +1,15 @@
+
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Version-3" transform="translate(-1089.000000, -98.000000)">
+            <g id="legend" transform="translate(1074.000000, 45.000000)">
+                <g id="shazams" transform="translate(15.000000, 53.000000)">
+                    <g id="icon">
+                        <circle id="Oval-2" stroke="#666666" cx="10" cy="10" r="9.5"></circle>
+                        <path d="M6.5,9.5 L13.5,9.5 L13.5,8 L16.5,10 L13.5,12 L13.5,10.5 L6.5,10.5 L6.5,12 L3.5,10 L6.5,8 L6.5,9.5 Z" id="Combined-Shape" fill="#666666"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -21,12 +21,11 @@ export const render = (chart, height) => {
     .attr("transform", "rotate(270)")
     .attr("style", "opacity: 0");
 
-  setTimeout(() => {
-    lessDepressive
-      .transition()
-      .duration(500)
-      .attr("style", "opacity: 1");
-  }, 600);
+  lessDepressive
+    .transition()
+    .delay(600)
+    .duration(500)
+    .attr("style", "opacity: 1");
 
   const moreDepressive = chart
     .append("text")
